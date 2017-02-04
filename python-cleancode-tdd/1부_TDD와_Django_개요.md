@@ -1,4 +1,4 @@
-## 1부. TDD와 Django 개요
+# 1부. TDD와 Django 개요
 
 1. `1부`에서는 `테스트 주도 개발(TDD)`의 기본적인 내용을 다룬다.
 2. 실제로 웹 어플리케이션을 구축해보고 각 단계별 테스트를 작성한다.
@@ -53,8 +53,12 @@ $ python --version
 ### pyenv-virtualenv 설정
 
 ```bash
+# 프로젝트별 가상 환경 생성
 $ pyenv virtualenv 3.6.0 python-tdd-cleancode
+# 가상환경 활성화
 $ pyenv activate python-tdd-cleancode
+# pip 자체 업그레이드(자주하면 좋음)
 $ pip install --upgrade pip
+# 가상환경 비활성화
 $ pyenv deactivate
 ```
