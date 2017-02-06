@@ -41,6 +41,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'selenium'
 
 # selenium 이 없다. 설치한다.
+$ sudo apt install libsqlite3-dev
 $ pip install selenium
 Collecting selenium
   Downloading selenium-3.0.2-py2.py3-none-any.whl (915kB)
